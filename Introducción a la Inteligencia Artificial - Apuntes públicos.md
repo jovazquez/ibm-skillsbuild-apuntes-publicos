@@ -14,7 +14,9 @@ tags:
 
 # Introducción a la Inteligencia Artificial - Cuaderno de apuntes
 
-> [!info] Cómo está hecha esta nota
+> [!NOTE]
+> **Cómo está hecha esta nota**
+>
 > **Del material** resume y reorganiza lo que enseña el curso. **Explicación adicional** sirve para aterrizar las ideas con palabras y diagramas propios. Los cuestionarios y la evaluación final se usaron únicamente para reconocer qué conceptos se refuerzan; aquí no se guardan preguntas, opciones ni respuestas.
 
 ## Resumen de un minuto
@@ -27,12 +29,20 @@ La historia de la informática puede entenderse en tres eras. En la **tabulació
 
 El aprendizaje automático puede trabajar de tres maneras: **supervisada**, con ejemplos etiquetados; **no supervisada**, encontrando agrupaciones en datos sin etiquetar; y **por refuerzo**, aprendiendo mediante ensayo, recompensa y penalización. Sus resultados suelen ser probabilísticos: ofrecen niveles de confianza, no verdades absolutas. Por eso, la decisión final y el contexto siguen necesitando criterio humano.
 
-> [!tip] La idea que conecta todo el curso
+> [!TIP]
+> **La idea que conecta todo el curso:**
+>
 > **Datos → análisis → patrones → predicción → decisión humana.**
 
 ## Mapa visual del curso
 
 **Explicación adicional**
+
+**Alternativa legible en GitHub para iOS**
+
+- Datos → análisis → patrones y relaciones → predicción con un nivel de confianza → decisión o acción → resultado.
+- El criterio humano y el contexto también intervienen en la decisión.
+- El resultado aporta retroalimentación para realizar nuevos análisis.
 
 ```mermaid
 flowchart LR
@@ -67,6 +77,12 @@ El curso insiste en una distinción importante: una máquina de IA no “piensa�
 
 **Explicación adicional**
 
+**Alternativa legible en GitHub para iOS**
+
+- Inteligencia artificial
+  - Aprendizaje automático
+    - Aprendizaje profundo
+
 ```mermaid
 flowchart TB
     IA[Inteligencia artificial]
@@ -86,7 +102,9 @@ La inteligencia artificial busca que una máquina realice tareas asociadas con c
 
 Las máquinas tienen ventaja para procesar muchos datos, trabajar rápido, repetir tareas y detectar patrones. Las personas aportan creatividad, sentido común, empatía, comprensión del contexto y responsabilidad sobre la decisión.
 
-> [!example] Ejemplo sencillo
+> [!NOTE]
+> **Ejemplo sencillo**
+>
 > Un sistema puede comparar miles de antecedentes médicos y estimar qué tratamiento tiene mayor probabilidad de funcionar. Eso no elimina el papel del médico: el profesional interpreta la recomendación, conoce al paciente y toma la decisión clínica.
 
 
@@ -110,6 +128,10 @@ El autocorrector es un buen ejemplo: compara lo escrito con patrones aprendidos 
 | IA general | Cualquier tarea intelectual que pueda realizar una persona. | Se presenta como una posibilidad futura, no como una capacidad actual. | Razonamiento general, estrategia y creatividad comparables con las humanas. |
 
 **Explicación adicional**
+
+**Alternativa legible en GitHub para iOS**
+
+IA estrecha —una tarea— → IA amplia —tareas relacionadas dentro de un dominio— → IA general —capacidad intelectual general planteada como posibilidad futura—.
 
 ```mermaid
 flowchart LR
@@ -149,6 +171,10 @@ La evolución no empieza con la IA. Durante siglos, las personas construyeron he
 ### Línea de tiempo para recordar
 
 **Del material, condensado**
+
+**Alternativa legible en GitHub para iOS**
+
+Ábaco → máquina diferencial de Babbage y Lovelace → tarjetas de Hollerith en 1890 → ENIAC en la década de 1940 → Dartmouth en 1956 → inviernos de la IA → Deep Blue en 1997 → robot autónomo en 2005 → Watson en 2011.
 
 ```mermaid
 timeline
@@ -198,6 +224,13 @@ La lección histórica es útil para la master class: el avance de la IA no depe
 
 **Explicación adicional**
 
+**Alternativa legible en GitHub para iOS**
+
+- Datos
+  - Estructurados: esquema fijo, como una tabla.
+  - Semiestructurados: contenido acompañado por metadatos.
+  - No estructurados: imágenes, audio o texto libre sin un esquema fijo.
+
 ```mermaid
 flowchart TB
     D[Datos]
@@ -217,7 +250,9 @@ Cuando la información está organizada, localizar el valor mayor o comparar reg
 
 El curso señala que alrededor del 80 % de los datos actuales son no estructurados. Allí pueden esconderse patrones valiosos para salud, seguridad, finanzas, tendencias de consumo y prevención de riesgos. El aprendizaje automático ayuda a dar estructura a esa información y a mejorar sus predicciones conforme aprende de más datos.
 
-> [!example] Ejemplo propio
+> [!NOTE]
+> **Ejemplo propio**
+>
 > Una tabla con fecha, ciudad y temperatura es estructurada. Miles de comentarios que dicen “hoy hace muchísimo calor”, fotos de termómetros y audios de reportes forman datos no estructurados. Si además cada publicación tiene fecha, ubicación y etiquetas, el conjunto se vuelve semiestructurado.
 
 ### Lo que reforzó el cuestionario del módulo
@@ -309,6 +344,12 @@ Aprende mediante ensayo y error. Una acción favorable recibe una recompensa; un
 
 **Explicación adicional**
 
+**Alternativa legible en GitHub para iOS**
+
+- Ejemplos con una respuesta conocida → aprendizaje supervisado.
+- Datos sin categorías previas → aprendizaje no supervisado.
+- Acciones acompañadas de recompensas o penalizaciones → aprendizaje por refuerzo.
+
 ```mermaid
 flowchart LR
     P[Problema] --> Q{¿Qué información tengo?}
@@ -337,7 +378,9 @@ El nivel actual se sitúa en la IA amplia: sistemas capaces de realizar varias t
 
 Los sensores producirían grandes volúmenes de datos que podrían emplearse para mejorar seguridad, sostenibilidad y protección ambiental. Humanos, dispositivos y robots formarían una red capaz de anticipar necesidades, hacer predicciones y proponer soluciones.
 
-> [!warning] Qué pertenece a una proyección
+> [!WARNING]
+> **Qué pertenece a una proyección**
+>
 > La IA general y ese “cerebro digital” colectivo se presentan como escenarios futuros del curso. No deben confundirse con capacidades demostradas de los sistemas actuales.
 
 ### La relación ideal
@@ -423,7 +466,9 @@ Estas preguntas pueden servir para conectar el curso introductorio con casos rea
 6. ¿Qué responsabilidades nunca deberían delegarse completamente en una predicción automática?
 7. ¿Cómo se mide si la colaboración humano-máquina mejora realmente la decisión?
 
-> [!tip] Preparación de 20 minutos antes de la clase
+> [!TIP]
+> **Preparación de 20 minutos antes de la clase**
+>
 > Lee el resumen de un minuto; explica sin mirar las tres eras, los tres tipos de datos y los tres métodos de aprendizaje; termina revisando la tabla “Diferencias que no debo confundir”. Si una explicación no sale en dos o tres frases, marca ese punto para preguntarlo en la master class.
 
 ## Alcance y fuente
