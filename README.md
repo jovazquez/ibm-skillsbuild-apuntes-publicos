@@ -5,6 +5,7 @@ Apuntes de estudio preparados a partir de los cursos de IBM SkillsBuild. El obje
 ## Contenido
 
 - [Introducción a la Inteligencia Artificial - Cuaderno de apuntes](<Introducción a la Inteligencia Artificial - Apuntes públicos.md>)
+- [Procesamiento del lenguaje natural y visión por ordenador - Cuaderno de apuntes](<Procesamiento del lenguaje natural y visión por ordenador - Apuntes públicos.md>)
 
 ## Alcance
 
