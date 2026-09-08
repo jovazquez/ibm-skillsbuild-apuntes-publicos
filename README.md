@@ -14,6 +14,12 @@ Apuntes de estudio preparados a partir de los cursos de IBM SkillsBuild. El obje
 - No se reproducen transcripts, preguntas, opciones ni respuestas de evaluaciones.
 - Los diagramas Mermaid son visualizaciones de estudio creadas para estos apuntes.
 
+## Compatibilidad con GitHub móvil
+
+- Cada diagrama Mermaid conserva una alternativa previa en texto o lista para que la explicación siga siendo legible cuando la aplicación de GitHub para iOS muestre el diagrama como código.
+- Las alertas utilizan únicamente los identificadores oficiales `NOTE`, `TIP`, `IMPORTANT`, `WARNING` y `CAUTION`, escritos en mayúsculas y en una línea independiente.
+- Las actualizaciones se publican mediante Pull Requests que explican el motivo, los cambios realizados y las validaciones de formato y privacidad.
+
 ## Aviso
 
 Este es un proyecto personal e independiente de apuntes. IBM y IBM SkillsBuild son marcas de sus respectivos propietarios. Para consultar el material original y realizar los cursos, visite [IBM SkillsBuild](https://skillsbuild.org/).
